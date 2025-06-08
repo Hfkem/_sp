@@ -1,5 +1,6 @@
 #  作業一：
-  作業 dowhile全由AI輔助完成 (vscode內codeinum輔助工具)，其餘為老師原檔
+##  作業 dowhile部分全由AI輔助完成 (vscode內codeium輔助工具)，其餘為老師原檔
+  ```
   void DOWHILE(){
   int dowhileBegin = nextLabel();
   int dowhileEnd = nextLabel();
@@ -17,3 +18,6 @@
   emit("goto L%d\n", dowhileBegin);
   emit("(L%d)\n", dowhileEnd);
 }
+```
+
+## 其餘作業作業缺交
